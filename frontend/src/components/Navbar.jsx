@@ -34,6 +34,11 @@ const Navbar = () => {
                     <li className='py-1'>CONTACT</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
                 </NavLink>
+                <a href={import.meta.env.VITE_ADMIN_URL}>
+                    <li className="py-2 px-4 bg-primary text-white rounded-full text-center hover:bg-primary/90 transition duration-200">
+                        Admin Panel
+                    </li>
+                </a>
             </ul>
             <div className='flex items-center gap-4'>
                 {
